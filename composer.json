@@ -1,0 +1,8 @@
+{
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "symfony/dotenv": "^6.1",
+    "ext-pdo": "*"
+  }
+}

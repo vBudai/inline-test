@@ -1,0 +1,51 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+form{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 350px;
+    min-height: 150px;
+    
+    margin: 25px auto;
+    padding: 20px 30px;
+
+    background: #bbb8b8;
+    border-radius: 18px;
+}
+
+textarea{
+    font-size: 16px;
+
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 10px 15px;
+
+    resize: vertical;
+    min-height: 70px;
+    height: 70px;
+    max-height: 400px;
+    width: 100%;
+
+    margin-bottom: 25px;
+}
+
+input[type='submit']{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+    background: #174ebe;
+    border-radius: 14px;
+
+    width: 175px;
+    height: 50px;
+}
